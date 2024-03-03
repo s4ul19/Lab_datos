@@ -4,6 +4,7 @@ import pandas as pd
 import math
 import streamlit as st
 
+import streamlit as st
 st.title('Exámen 1')
 st.write('El fin de esta aplicación realizar varias gráficas de distribuciones binomiales para valores de n que vayan de 0 a 100, incluí tambíen una tabla para que se pueda contamplar los datos tambíen, quiero enfatizar que los datos que salen como 0 son solo aproximaciones, pues el numero que reperesentan es bastante pequeño. Su uso es bastante fácil, solo introduzca valores de |n| <= 100 y valores de |p|<=1, darle click a almacenar datos y listo, tiene su gráfica ! ' )
 st.write(' Los unicos widgets que usé fueron los del button, .write, y .number_input, consideré que ellos eran suficientes para cumplir con la funcionalidad adecuada del programa ')
@@ -22,11 +23,11 @@ if boton:
     st.write("El valor ingresado de n es:", n)
     st.write("El valor ingresado de p es:", p)
 
-# He colocado la variable q en la construcción de la función
+    # He colocado la variable q en la construcción de q
 # sin embargo, para evitar la inclusión de ese parámetro
 # en las opciones dentro de streamlit
 # Preferí luego establecer la sustitución q=1-p
-# Eliminando así la necesidad de incluir otro valor
+# Eliminando así la necesidad de incluir otro valor.abs
 # Note que esto a su vez simplifica el problema que 
 # El usuario establezca un valor de q >1 
 q=1-p
