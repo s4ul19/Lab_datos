@@ -14,7 +14,6 @@ cachetools==5.3.2
 certifi==2022.9.24
 chardet==5.1.0
 click==8.1.6
-cloud-init==23.4.4
 colorama==0.4.6
 comm==0.1.2
 command-not-found==0.3
