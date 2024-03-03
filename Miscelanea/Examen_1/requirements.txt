@@ -8,7 +8,7 @@ bcrypt==3.2.2
 beautifulsoup4==4.12.2
 beniget==0.4.1
 blinker==1.6.2
-Brlapi==0.8.4
+#Brlapi==0.8.4
 Brotli==1.0.9
 bytecode==0.14.2
 cachetools==5.3.2
