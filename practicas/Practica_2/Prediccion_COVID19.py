@@ -28,9 +28,9 @@ r & 135.612 \\
 
 # imagenes------------------------------------
 ecuacion_latex = r'f(x) = A e^{-\frac{(x - \mu)^2}{2r^2}}'
-imgfit1= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 1.png"
-imgfit1_1= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 1 Comparacion.png"
-imgfit2= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 2.png"
+imgfit1= "https://i.imgur.com/5hw9cUR.png"
+imgfit1_1= "https://i.imgur.com/BOr2HLy.png"
+imgfit2= "https://i.imgur.com/nh2HIAr.png"
 #---------------------------------------------
 img1_url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Binomial_distribution_pmf.svg/325px-Binomial_distribution_pmf.svg.png"
 img2_url= " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa0U_bvskSESz5CBAvgvxanovdF7jY4g9zKX3haiP6Aw&s"
@@ -55,14 +55,14 @@ def txt_Discusión_Resul():
     st.title('Resultados generales y su discusión.')
     st.write('En los intervalos de tiempo que empleamos se empezó en ambos el 13 de marzo de 2020, siendo esa la fecha del primer confirmado de COVID19 en Guatemala. El primer intervalo termina el 1 de Junio de 2020 y el segundo intervalo termina el 15 de marzo de 2021')
     st.markdown('<p style="font-size: 23px;">Para el primer intervalo se tuvo lo siguiente:</p>', unsafe_allow_html=True)
-    st.image(imgfit1, caption= 'Del 13 de marzo de 2020 a 1 de junio de 2020')
+    st.image(imgfit1, caption= 'Del 13 de marzo de 2020 a 1 de junio de 2020', use_column_width=False)
     st.write('Es de notable interés que la tendencia general del cuerpo de datos sigue la forma propuesta. Si desplazamos este mismo intervalo unos días más, se presenta la siguiente nueva gráfica, note que se incluyó el ajuste hecho durante el primer intervalo.')
     st.write('Los parámetros que se obtuvieron para este ajuste fueron:')
     st.latex(latex_table)
-    st.image(imgfit1_1, caption= 'Del 13 de marzo de 2020 a unos días después de 1 de junio de 2020')
+    st.image(imgfit1_1, caption= 'Del 13 de marzo de 2020 a unos días después de 1 de junio de 2020', use_column_width=False)
     st.write('Evidentemente el intervalo empleado es insuficiente para proponer una predicción cercana a la realidad, sin embargo, puede ser observado que estudiando la distribución de datos hasta ese punto, la tendencia de la gráfica parece se del tipo Poisson ! .')
     st.markdown('<p style="font-size: 23px;">Para el segundo intervalo se tuvo lo siguiente:</p>', unsafe_allow_html=True)
-    st.image(imgfit2, caption='Del 13 de marzo de 2020 a 15 de marzo de 2021')
+    st.image(imgfit2, caption='Del 13 de marzo de 2020 a 15 de marzo de 2021', use_column_width=False)
     st.write('A inspección directa, es concluyente que el ajuste con la binomial no parece ser eficiente, la distribución de datos parace caracterizarse por dos picos en la cantidad de contagios. Es concluyente que para intervalos grandes, un ajuste mediante un modelo binomial es impreciso.')
     st.write('Los parámetros que se determinaron para el ajuste fueron: (Note que este ajuste es mucho más impreciso que el del primer intervalo))')
     st.latex(latex_table2)
