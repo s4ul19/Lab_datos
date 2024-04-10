@@ -28,9 +28,9 @@ r & 135.612 \\
 
 # imagenes------------------------------------
 ecuacion_latex = r'f(x) = A e^{-\frac{(x - \mu)^2}{2r^2}}'
-imgfit1= "/home/saul/Desktop/LabRedDat/Practicas/Practica_2/Fit 1.png"
-imgfit1_1= "/home/saul/Desktop/LabRedDat/Practicas/Practica_2/Fit 1 Comparacion.png"
-imgfit2= "/home/saul/Desktop/LabRedDat/Practicas/Practica_2/Fit 2.png"
+imgfit1= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 1.png"
+imgfit1_1= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 1 Comparacion.png"
+imgfit2= "/home/saul/Desktop/Lab_datos_/practicas/Practica_2/Fit 2.png"
 #---------------------------------------------
 img1_url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Binomial_distribution_pmf.svg/325px-Binomial_distribution_pmf.svg.png"
 img2_url= " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa0U_bvskSESz5CBAvgvxanovdF7jY4g9zKX3haiP6Aw&s"
